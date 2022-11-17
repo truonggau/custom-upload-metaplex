@@ -237,3 +237,16 @@ yarn build
 yarn test
 yarn test
 ```
+
+
+
+#### upload
+
+```
+ts-node src/candy-machine-v2-cli.ts upload example-assets/ -cp example-candy-machine-upload-config.json -c cache -k <path_keypair> -r https://winter-flashy-dawn.solana-devnet.discover.quiknode.pro/c7023a9cfda5932a4e18ec7f381e98cc2226c22e/
+```
+
+#### mint_one_token
+```
+ts-node src/candy-machine-v2-cli.ts mint_one_token -c cache -k ~/.config/solana/id.json -r https://winter-flashy-dawn.solana-devnet.discover.quiknode.pro/c7023a9cfda5932a4e18ec7f381e98cc2226c22e/
+```
